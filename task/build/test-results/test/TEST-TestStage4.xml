@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStage4" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-21T19:53:56" hostname="LAPTOP-V78T3SEN" time="0.912">
+  <properties/>
+  <testcase name="start" classname="TestStage4" time="0.912"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+The username is Max.
+?[1;31m
+Start test 2?[0m
+The file 'abc.txt' is tracked.
+?[1;31m
+Start test 3?[0m
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+?[1;31m
+Start test 4?[0m
+Please, tell me who you are.
+The username is Max.
+The username is Max.
+The username is John.
+The username is John.
+?[1;31m
+Start test 5?[0m
+Add a file to the index.
+The file 'file649.txt' is tracked.
+Tracked files:
+file649.txt
+The file 'file314.txt' is tracked.
+Tracked files:
+file649.txt
+file314.txt
+Can't find 'file476.txt'.
+?[1;31m
+Start test 6?[0m
+The username is Christine823.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+?[1;31m
+Start test 7?[0m
+The username is Diane494.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+No commits yet.
+Message was not passed.
+Changes are committed.
+commit 90595bd1df580fcbd01f84d98fdd7b443769738e9480dfe00809eb066ca30e013915494746042500
+Author: Diane494
+Test message
+
+Nothing to commit.
+Changes are committed.
+commit 99a2f7480e814454fb6ccf3511a6bc5e7b1541cc2691599f51e66460488e01e33915494825039500
+Author: Diane494
+Test message3
+
+commit 90595bd1df580fcbd01f84d98fdd7b443769738e9480dfe00809eb066ca30e013915494746042500
+Author: Diane494
+Test message
+
+?[1;31m
+Start test 8?[0m
+The username is Diane489.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+Changes are committed.
+Commit id was not passed.
+Commit does not exist.
+commit 2e4f4c105be629dc47c7c5557fe3f798ee584d36096f45ed8f9cfaf917c702593915494993143600
+Author: Diane489
+Second commit
+
+commit 1bd46f5401577e9c0a449ad49c86273e9c9023cb23dc66c94cfa9788d62f6eba3915494971444500
+Author: Diane489
+First commit
+
+Switched to commit 1bd46f5401577e9c0a449ad49c86273e9c9023cb23dc66c94cfa9788d62f6eba3915494971444500.
+?[1;31m
+Start test 9?[0m
+'wrongArg113' is not a SVCS command.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
